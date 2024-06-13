@@ -1,1 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    /*Background colors*/
+    --bg-dark-purple: hsla(260, 62%, 11%, 1);
+    --bg-russian-violet: hsla(259, 61%, 14%, 1);
+    --bg-vivid-violet: hsla(273, 100%, 55%, 1);
+    --bg-sunglow: hsla(43, 100%, 61%, 1);
+    --bg-blue-jeans: hsla(202, 100%, 50%, 1);
+    --bg-white-alpha-10: hsla(0, 0%, 100%, 0.1);
+
+    /*Text colors*/
+    --text-white: hsla(0, 0%, 100%, 1);
+    --text-black: hsla(0, 0%, 0%, 1);
+    --text-sunglow: hsla(43, 100%, 61%, 1);
+    --text-white-alpha-60: hsla(0, 0%, 100%, 0.6);
+
+    /*Border colors*/
+    --border-blue-jeans: hsla(202, 100%, 50%, 1);
+    --border-white-alpha-10: hsla(0, 0%, 100%, 0.1);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+img,
+span,
+button,
+ion-icon {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+}
+
+input,
+button {
+    background: none;
+    border: none;
+    font: inherit;
+}
+
+input {
+    width: 100%;
+    outline: none;
+}
+
+ion-icon {
+    pointer-events: none;
+}
+
+address {
+    font-style: normal;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--bg-dark-purple);
+    color: var(--text-white-alpha-60);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
