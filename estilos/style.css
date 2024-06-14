@@ -81,3 +81,16 @@ body {
     font-size: 1.6rem;
     line-height: 1.8;
 }
+
+.navbar,
+.overlay,
+.header .btn { display: none;}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 30px;
+    z-index: 4;
+}
